@@ -1,0 +1,22 @@
+.taskList {
+    margin: 1rem;
+}
+
+.taskList h1 {
+    color: var(--app-font-clr-one);
+    font-size: 2.5rem;
+}
+
+.taskListContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+
+}
+
+.noTaskHeader {
+    color: var(--app-font-clr-one);
+    font-size: 1.5rem;
+    text-align: center;
+}
